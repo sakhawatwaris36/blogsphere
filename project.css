@@ -16,13 +16,15 @@
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
+    position: sticky;
+    top: 0px !important;
 }
 .s1{
     font-size: 2rem;
     color: blue;
     margin-top: rem;
     margin-left: 4rem;
-    position:fixed;
+    /* position:fixed; */
     
 }
 .sakhi{
@@ -37,6 +39,13 @@
 }
 .ul li{
     margin-left: 15px;
+}
+li:hover{
+    border-bottom: 2px solid blue;
+    color: rgb(244, 241, 241);
+    background-color: rgb(151, 151, 251);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .we{
@@ -67,7 +76,7 @@
     background-color: rgb(255, 128, 0);
     margin-left: 30rem;
     margin-top: 3rem;
-    position: fixed;
+    /* position: fixed; */
 
 }
 .button2{
@@ -81,5 +90,11 @@
      color: rgb(96, 9, 234);
 }
 .subscribe{
-    /* padding: 5px 10px; */
+       background-color: rgb(60, 60, 253);
+       padding: 10px;
+       border-radius: 10px;
+       width: 7rem;
+}
+.subscribe:hover{
+    background-color: rgb(181, 182, 182);
 }
