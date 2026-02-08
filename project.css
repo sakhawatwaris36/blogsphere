@@ -98,3 +98,28 @@ li:hover{
 .subscribe:hover{
     background-color: rgb(181, 182, 182);
 }
+@media (max-width:768px) {
+   .sakhi{
+    font-size: 1rem;
+   } 
+   .subscribe{
+     padding: 8px;
+     width: 5rem;
+     height: 2.5rem;
+   }
+   .we{
+    font-size: 2rem;
+    padding: 20px;
+    padding-top: 5px;
+   }
+   .now{
+    font-size: 1.5rem;
+    margin-top: 10px;
+   }
+   .button1{
+    margin-left: 5rem;
+   }
+   .viewmore{
+      padding-left: 20px;
+   }
+}
